@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';                                // this is the component file
 
 const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   return (
